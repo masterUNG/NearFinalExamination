@@ -3,6 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <LinearLayout
+        android:background="#82ffffff"
         android:padding="15dp"
         android:layout_margin="30dp"
         android:orientation="vertical"
@@ -38,6 +39,13 @@
 
 
         <!--Button-->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:textStyle="bold"
+            android:text="Calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
 
 
     </LinearLayout>
